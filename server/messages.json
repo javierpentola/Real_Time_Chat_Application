@@ -1,0 +1,38 @@
+[
+  {
+    "ip": "127.0.0.1",
+    "text": "Hola!"
+  },
+  {
+    "ip": "192.168.1.1",
+    "text": "¿Cómo va todo?"
+  },
+  {
+    "ip": "::1",
+    "text": "test"
+  },
+  {
+    "ip": "::1",
+    "text": "sdfdsfsdfs"
+  },
+  {
+    "ip": "::1",
+    "text": "dfsdafasdf"
+  },
+  {
+    "ip": "::1",
+    "text": "test"
+  },
+  {
+    "ip": "::1",
+    "text": "fdsafsadf"
+  },
+  {
+    "ip": "::1",
+    "text": "Ghjv"
+  },
+  {
+    "ip": "::1",
+    "text": "Probando desde el móvil "
+  }
+]

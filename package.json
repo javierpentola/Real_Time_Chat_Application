@@ -1,0 +1,14 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Simple real-time chat application",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "chatserver": "node server/chatserver.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.6"
+  }
+}

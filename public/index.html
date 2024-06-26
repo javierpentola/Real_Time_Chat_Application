@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat en Tiempo Real</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="window" id="chat-container">
+        <div class="title-bar">
+            <div class="title-bar-text">Chat en Tiempo Real</div>
+        </div>
+        <div class="window-body">
+            <div id="chat-box" class="field-row-stacked"></div>
+            <div class="field-row">
+                <input type="text" id="message-input" class="text-input">
+                <button id="send-button" class="button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    
+    <button onclick="abrirReadme()">Readme</button>
+
+    <script>
+        function abrirReadme() {
+            // Cambia la ruta según sea necesario para que coincida con el entorno de producción o desarrollo
+            window.open('https://pastebin.com/GYy5CKKj', '_blank');
+        }
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html>
